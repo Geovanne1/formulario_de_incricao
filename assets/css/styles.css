@@ -1,0 +1,164 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 95vh;
+  max-width: 100vw;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0px 400px;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  margin: 30px 20px;
+  flex-direction: column;
+}
+
+.content h1{
+  text-align: center;
+  color: hsl(234, 29%, 20%);
+  font-weight: bold;
+  font-size: 56px;
+}
+
+.content p {
+  color: hsl(234, 29%, 20%);
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.list .item {
+  color: hsl(234, 29%, 20%);
+  line-height: 35px;
+  font-size: 14px;
+}
+
+.item::before {
+  content: '';
+  background-image: url(../images/icon-list.svg);
+  padding-left: 25px;
+  padding-bottom: 10px;
+  background-repeat: no-repeat;
+}
+
+.imagem {
+  padding: 5px;
+}
+
+form {
+  margin-top: 45px;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: hsl(234, 29%, 20%);
+  font-weight: bold;
+}
+
+form input {
+  padding: 12px 17.7vw 12px 5px;
+  margin-bottom: 15px;
+  border: 1.5px solid hsl(231, 7%, 60%);
+  border-radius: 5px;
+}
+
+form input #input_email::placeholder {
+  color: hsl(234, 9%, 48%);
+}
+
+form input:focus {
+  box-shadow: 0 0 0 0;
+  border: 1px solid hsl(234, 29%, 20%);
+}
+
+form .botao {
+  padding: 15px 8.3vw;
+  word-wrap: break-word;
+  border: none;
+  background-color: hsl(234, 29%, 20%);
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+form .botao:hover{
+  transition: 1s;
+  background: linear-gradient(90deg, rgba(176,27,10,1) 0%, rgba(217,29,9,1) 45%, rgba(255,0,99,1) 100%);
+}
+
+form div {
+  display: flex;
+  flex-direction: row;
+}
+
+form span {
+  font-size: 13px;
+  font-weight: bold;
+  color: rgba(217,29,9,1);
+  padding-left: 15.3vw;
+}
+
+.erro {
+  border: 2px solid rgba(217,29,9,1);
+}
+
+.aviso {
+  display: none;
+}
+
+/*mensagen de sucesso*/
+
+.sucesso {
+  display: none;
+  background-color: white;
+  position: absolute;
+  padding: 30px 40px;
+  border-radius: 25px;
+  margin: 450px;
+}
+
+.sucesso h2 {
+  color: hsl(234, 29%, 20%);
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.sucesso p {
+  margin-bottom: 28px;
+}
+
+.sucesso button {
+  padding: 15px 8.3vw;
+  word-wrap: break-word;
+  border: none;
+  background-color: hsl(234, 29%, 20%);
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.sucesso button:hover {
+  transition: 1s;
+  background: linear-gradient(90deg, rgba(176,27,10,1) 0%, rgba(217,29,9,1) 45%, rgba(255,0,99,1) 100%);
+}
+
+.mensEmail {
+  color: hsl(234, 29%, 20%);
+  font-weight: bold;
+}
