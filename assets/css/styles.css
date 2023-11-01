@@ -12,14 +12,16 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin: 0px 400px;
+  margin: 0px 200px;
   padding: 20px;
 }
 
 .content {
-  display: flex;
+  display:  flex;
   margin: 30px 20px;
+  width: 50%;
   flex-direction: column;
+  padding: 5px;
 }
 
 .content h1{
@@ -79,7 +81,7 @@ form label {
 
 form input {
   padding: 12px 4vh 12px 5px;
-  width: 86%;
+  width: 92%;
   margin-bottom: 15px;
   border: 1.5px solid hsl(231, 7%, 60%);
   border-radius: 5px;
