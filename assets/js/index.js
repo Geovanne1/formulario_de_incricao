@@ -36,7 +36,7 @@ function erroEmail(input) {
 
 function sucessEmail(input) {
   input.classList.remove('erro')
-  sucesso.style.display = 'block'
+  sucesso.style.display = 'flex'
   mensEmail.innerHTML = `${input.value}`
   card.style.display = 'none'
   span.style.display = 'none'
