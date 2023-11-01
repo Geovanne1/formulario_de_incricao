@@ -189,9 +189,6 @@ form span {
   .imagemMobile {
     display: block;
     width: 100%;
-    /* position: fixed;
-    top: 0;
-    left: 0; */
   }
 
   .card {
@@ -208,6 +205,7 @@ form span {
   }
   
   .content {
+    width: 100%;
     padding: 10px;
     display: flex;
     margin: 0px 0px;
@@ -216,13 +214,20 @@ form span {
   }
 
   .content h1 {
-    margin-top: 20px;
+    margin-top: 3px;
+    margin-bottom: 10px;
     font-size: 36px;
+  }
+
+  .content p {
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 
   form{
     flex-direction: column;
     display: flex;
+    margin-top: 20px;
   }
 
   
